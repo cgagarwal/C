@@ -28,5 +28,7 @@ int main() {
     printf("%d\n" , zero[3]);   // 0
     printf("%d\n" , zero[4]);   // 0
     
+    int arr[5] = {5};       // 5 0 0 0 0
+        
     return 0;
 }
