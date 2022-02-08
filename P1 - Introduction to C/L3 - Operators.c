@@ -10,20 +10,20 @@ int main() {
   
     // increment (++) and decrement(--) operator
 
-    // Relational opertors
+    //    Relational opertors
     // == , != , > , >= , < , <=
     printf("%d\n" , 8 >= 5);        //  true --- 1
     printf("%d\n" , 8 == 5);        //  false -- 0
     
   
-    // Logical Operators
+    //      Logical Operators
     // && (and) , || (or) , ! (not)
     int a = 8 , b = 5;
     printf("%d\n" , a && b);    //  true
     // 0 is false ; all other int are true
   
 
-    // Bitwise operator
+    //      Bitwise operator
     //  & (AND) ,  | (OR) ,  ^ (XOR)
     // convert in binary and then solve bitwise
 
@@ -32,9 +32,10 @@ int main() {
     << (left shift)         >> (right shift)
     */
 
-   // assignment opertaor
-   // = , += ( a = a+1 ) , -= , *= , /=
-   printf("%lu\n" , sizeof(double));     // 8
-   printf("%lu\n" , sizeof(a));      //  4 (int size)
+    
+    // Assignment opertaor
+    // = , += ( a = a+1 ) , -= , *= , /=
+    printf("%lu\n" , sizeof(double));     // 8
+    printf("%lu\n" , sizeof(a));      //  4 (int size)
 
 }
