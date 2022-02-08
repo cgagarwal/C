@@ -12,6 +12,7 @@ int main() {
     else
         printf("ADULT\t");
 
+    
    // switch statement
    int a = age%10;
   
