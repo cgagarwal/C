@@ -5,6 +5,7 @@
 
 argc (argument count)   --> denotes no. of passed arguments
 argv (argument vector)  --> denotes to a pointer array that is pointing to every argument
+
 */
 
 #include <stdio.h>
