@@ -8,7 +8,6 @@ main() {
                ---------------- Process in System ----------------
     preprocessing ----> compilation ---> assembly ---> linking -----> loading
         
-        
        ------------------------- Rules for Variable Declaration ------------------------------
     --- A variable can have alphabets, digits, and underscore.
     --- A variable name can start with the alphabet, and underscore only. It can't start with a digit.
@@ -19,10 +18,10 @@ main() {
     
     // input from user
     int a;
-    scanf("%d", &a);
+    scanf("%d", &a);    // returns total number of inputs scanned successfully
  
     // print the statement
-    printf("Hello , Chirag\n");
+    printf("Hello , Chirag\n");     // returns total number of characters printed
     
     return 0;       // Not Must
 }
