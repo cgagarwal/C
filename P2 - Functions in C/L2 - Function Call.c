@@ -1,13 +1,9 @@
 #include <stdio.h>
-int t = 3;      // global scope
 
 // CAll By Value
 int sum(int x, int y) {
     // x and y are copies of a and b
     // original value not change
-  
-    int z = 0;  //  Local Scope
-    // delete after the end of function
   
     return x+y;
     // x and y are formal parameters
@@ -30,13 +26,9 @@ int main() {
     int s = sum(a,b);
     // a and b are actual parameters
   
-    a = t;    // global t
-  
     printf("%d %d\n" , a,b);
     swap(&a,&b);        //  pass the address
     printf("%d %d\n" , a,b);
-    
-    // local variables are preffered over global variables
   
     return 0;
 }
