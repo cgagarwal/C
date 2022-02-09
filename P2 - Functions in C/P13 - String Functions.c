@@ -32,10 +32,10 @@ int main() {
     
     
     // strcmp(s1,s2) --> compare s1 and s2 lexicographically
-	printf("%d\n", strcmp("Chirag", "Chirag"));   // 0 (s1 = s2)
-	printf("%d\n", strcmp("Hello", "Hyy"));     // -ve (s1 < s2)
-	printf("%d\n", strcmp("Okk", "Okay"));      // +ve (s1 > s2)
-	// compare by ascii values, so min('a-z') > max('A-Z')
+    printf("%d\n", strcmp("Chirag", "Chirag"));   // 0 (s1 = s2)
+    printf("%d\n", strcmp("Hello", "Hyy"));     // -ve (s1 < s2)
+    printf("%d\n", strcmp("Okk", "Okay"));      // +ve (s1 > s2)
+    // compare by ascii values, so min('a-z') > max('A-Z')
     
     return 0;
 }
