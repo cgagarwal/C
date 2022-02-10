@@ -18,7 +18,7 @@ int main() {
     // return ASCII value of the character
     
     char a;
-    a = getchar();    // admissible for reading a single from user input
+    a = getchar();    // admissible for reading character from input
   
     return 0;
 }
