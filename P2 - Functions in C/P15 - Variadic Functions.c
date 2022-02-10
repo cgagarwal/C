@@ -18,7 +18,7 @@ void display(int n,...) {
     
     for(int i = 0; i < n; i++) {
         
-        // va_arg(va_list , type_of_return_value)
+        // va_arg(va_list , type_of_value_to_be_returned)
         printf("%d ", va_arg(sm, int)); // retrieve next argument
         // also modifies the va_list to next argument
         
