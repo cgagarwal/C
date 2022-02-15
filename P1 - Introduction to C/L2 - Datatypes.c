@@ -7,7 +7,7 @@ int main() {
     int x = 7;
     
     /*
-        Priimary (built in) data type   --- int , char , float , double , void
+        Primary (built in) data type    --- int , char , float , double , void
         Derived data type               --- array , pointer , structure , union, enum
     */
     
