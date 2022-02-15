@@ -2,6 +2,7 @@
 
 // all datatypes are admissible
 void main() {
+    
     // Arithmetic opertors
     // + , - , * , / , %
     printf("%d\n" , 8 % 4); // 0 reminder
