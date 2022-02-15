@@ -23,5 +23,6 @@ main() {
     // print the statement
     printf("Hello , Chirag\n");     // returns total number of characters printed
     
+    // exit status of function
     return 0;       // Not Must
 }
