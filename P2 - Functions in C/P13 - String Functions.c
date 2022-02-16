@@ -26,8 +26,8 @@ int main() {
     printf("%s\n", &str[5]); // s Shelby ...............
     // &str[i] ---> string from 'i'th index till NULL Character
   
-    // strstr(_,_) ---> gives s1 from s2 to last ; otherwise NULL
-    char *s = strstr(str , "is");
+    // strstr(s1,s2) ---> gives s1 from s2 to last ; otherwise NULL
+    char *s = strstr(str , "is");  // a pointer to the first occurrence of string str2 in string str1
     printf("%s\n" , s); // is a peaky  blinder
     
     
