@@ -16,9 +16,9 @@ int main() {
     // declare string by array
     char surname[] = {'G','o','y','a','l','\0'};
 
-    char g[] = {'h','y','\0','y'}; // string terminated at null character
-    printf("%s\n" , g);      //  hy .....only
-
+    char gud[] = {'h','y','\0','y'}; // string terminated at null character
+    printf("%s\n" , gud);      //  hy
+    
     // %s ----> format specifier for stings
     printf("My Name is %s %s\n" , name , surname);
 
@@ -29,6 +29,19 @@ int main() {
     printf("%20s\n",s);     // _______Chirag Goyal
     printf("%-20s\n",s);    // Chirag Goyal_______
     printf("%20.6s\n",s);   // ___________Chirag
+    
+    
+    // INPUTTING THE STRING FROM USER
+    char str1[52] , str2[90];
+    
+    scanf("%s" , str1);      // read until white spaces
+    // '&' not used ; str is array ; address of first element
+    
+    getchar();   // consume a single character
+    // return ASCII value of that character
+    
+    scanf("%[^\n]s", str2);   // read until new line encounters
+    printf("%s\n%s\n", str1 , str2);
   
     return 0;
 }
