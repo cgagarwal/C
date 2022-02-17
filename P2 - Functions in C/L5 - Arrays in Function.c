@@ -5,6 +5,8 @@ void twoDarray(int arr[][2]);
 
 // array as parameter
 int sum_of_marks(int arr[]) {
+    // full array never passed only first element address passed : (arr = address of b)
+    // sizeof(arr)      ----->  8 bytes (size of storing a memory address)
     int sum = 0;
     for(int i = 0 ; i < 9 ; i+= 1)
         sum += arr[i];
